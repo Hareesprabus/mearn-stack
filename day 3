@@ -1,0 +1,145 @@
+/*let a="sece";
+const name='harees';
+var age=20;
+console.log(a,name,age);
+let x = 100;{
+    let x=20;
+    console.log(x)
+}
+//data type
+//number-integer,infinity,-infinity,Nan.
+console.log(x)
+let b="1"*0;
+console.log(b)
+//bigint is size over 2*53
+let c=12n;
+console.log(typeof c)
+//string
+let str='addition of two numbers';
+let str1='and';
+let str2="=";
+let num1=10;
+let num2=20;
+let num3=num1+num2;
+let s=str+num1+str1+num2+str2+num3;
+console.log(s)
+console.log(`addition of two number ${num1} and ${num2} is ${num1+num2}`)
+//null-empty
+let  obj=null;
+//undefined - not defined
+let xtr;
+//boolean
+const bool=true;
+console.log(sece);
+var sece='college';//we use let it will give error
+//symbol
+//object
+const user=Object.freeze( {
+    name:"xyz",
+    age:20,
+    phonenumber:098765,
+    email:'hhhds.gmail.com'} );
+
+    delete user.age;
+console.log(user)
+//object.->keys and values
+const users=Object.values( {
+    name:"xyz",
+    age:20,
+    phonenumber:098765,
+    email:'hhhds.gmail.com'} );
+    console.log(users)
+    const userx={
+        name:'x',
+        age:89
+    }
+    const usery={...userx,age:30};//... ->spread operator.
+    console.log(userx, usery)
+
+    let details={
+        address:{
+            street:'second street',
+            city:'coimbatore'
+        }
+        //city:'coimbatore'
+    }
+    console.log(details.address.city)//near address use symbol ? 
+    /* function
+    function getAmount(total,taxpercentage){
+
+    }*/
+   /* function add(x,y){
+        if(typeof x== typeof "number" ||typeof y== typeof "number")
+            {
+                return 'invalid';
+            }
+        else
+        return x+y; 
+    }
+    console.log(add(20+40));
+// arrow function
+ /*const sum=(num1, num2)=>{
+    return num1+num2;
+ }
+console.log(sum(10,200));
+const sums =(n1,n2) => n1+n2;
+const add =(n1,n2) => n1+n2;
+const subt =(n1,n2) => n1-n2;
+const calcu=(n1,n2,operation)=>
+{
+    return operation(n1,n2)
+}
+calcu(10,20,sums);*/
+/*let str4="   i  studing  at sece";
+str4.trim();
+console.log(str4)
+//array
+let arr3=[1,2,3,"123","4,5"];
+arr3.push(10);
+console.log(arr3)
+let arr=[
+    1,
+    undefined,
+    true,
+    null,
+    "123",
+    4,
+    [6,25,2,3,4,5],
+    (num)=>num1*5,
+    {a:1,b:2,c:3, say_hello:()=>"hello"}
+];
+console.log(arr[6][3]);
+for(key in arr[8]){
+    console.log(key,arr[8][key]);
+}
+let arr2=[1,2,3,4,5];
+arr2.push(6,7,8,9,10);
+console.log(arr2)
+console.log(arr2.unshift(1,2,3));
+console.log(arr2)
+let names=["hari","prabu","prasath","bala","surya"];
+let name_sli=names.slice(1,3);//slice(start,end)
+console.log(names,name_sli)
+console.log(names.splice(2,2,1,2,3));//splice(start,delete_count,)
+console.log(names)
+let na="harish";
+console.log(na.slice(1,na.length));
+let str5="sri eshwar college";
+let str6=str5.split("");
+console.log(str5,str6)
+//join
+// console.log(str5.join(" "));
+// str6=[1,2,3,4,"sri","eshwar","college"];
+// console.log(typeof str6.join(''));
+
+//charAt()
+console.log(str4.charAt(5));
+
+//touppercase and tolowercase
+
+let str7="sri eshwar college";
+console.log(str7.toUpperCase());
+console.log(str7.toLowerCase());
+let names2="harees prabu hari prasath";
+let names3=names2.split(" ");
+console.log(names3)*/
